@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  top30movies.netcore2.client:
+    image: top30movies.netcore2.client
+    build:
+      context: ./Top30Movies.NetCore2.Client
+      dockerfile: Dockerfile

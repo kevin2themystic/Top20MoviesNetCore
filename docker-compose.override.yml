@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  top30movies.netcore2.client:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+networks:
+  default:
+    external:
+      name: nat
