@@ -6,7 +6,25 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
       - "80"
+  top30movies.netcore2.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+  top30movies.netcore2.idp:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+  kevinparkinson.idp:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
 networks:
   default:
     external:
       name: nat
+
+
+

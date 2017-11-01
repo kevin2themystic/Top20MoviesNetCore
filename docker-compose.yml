@@ -6,3 +6,21 @@ services:
     build:
       context: ./Top30Movies.NetCore2.Client
       dockerfile: Dockerfile
+
+  top30movies.netcore2.api:
+    image: top30movies.netcore2.api
+    build:
+      context: ./Top30Movies.NetCore2.API
+      dockerfile: Dockerfile
+
+  top30movies.netcore2.idp:
+    image: top30movies.netcore2.idp
+    build:
+      context: ./Top30Movies.NetCore2.IDP
+      dockerfile: Dockerfile
+
+  kevinparkinson.idp:
+    image: kevinparkinson.idp
+    build:
+      context: ./KevinParkinson.IDP
+      dockerfile: Dockerfile

@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Top30Movies.NetCore2.Client", "Top30Movies.NetCore2.Client\Top30Movies.NetCore2.Client.csproj", "{AF003B07-8871-46CE-BFE0-FA3FDB752CF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Top30Movies.NetCore2.Client", "Top30Movies.NetCore2.Client\Top30Movies.NetCore2.Client.csproj", "{AF003B07-8871-46CE-BFE0-FA3FDB752CF2}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{56E301F8-6E6F-45EC-951C-D12D52F3154F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Top30Movies.NetCore2.API", "Top30Movies.NetCore2.API\Top30Movies.NetCore2.API.csproj", "{F5E859C7-7615-4C88-8AA9-A3B893BA376B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KevinParkinson.IDP", "KevinParkinson.IDP\KevinParkinson.IDP.csproj", "{A82C243F-5D80-4312-B559-D72774955C7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{56E301F8-6E6F-45EC-951C-D12D52F3154F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56E301F8-6E6F-45EC-951C-D12D52F3154F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56E301F8-6E6F-45EC-951C-D12D52F3154F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5E859C7-7615-4C88-8AA9-A3B893BA376B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5E859C7-7615-4C88-8AA9-A3B893BA376B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5E859C7-7615-4C88-8AA9-A3B893BA376B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5E859C7-7615-4C88-8AA9-A3B893BA376B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A82C243F-5D80-4312-B559-D72774955C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A82C243F-5D80-4312-B559-D72774955C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A82C243F-5D80-4312-B559-D72774955C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A82C243F-5D80-4312-B559-D72774955C7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
